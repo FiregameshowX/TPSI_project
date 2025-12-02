@@ -5,5 +5,29 @@
     border : 5px solid white;
 }
 #home_button{
+    border: none;
+    background-color: transparent;
     position: absolute;
+    top:20px;
+    left:20px;
+}
+#testo1{
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+}
+#spazioZero{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    opacity: 0;
+}
+#alertZero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
